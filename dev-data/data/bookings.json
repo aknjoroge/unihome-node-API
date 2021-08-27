@@ -1,0 +1,9 @@
+[
+    {
+     "userID":"xxxxxxxxxx",
+     "paymentMethod":"mpesa",
+     "date":"now()",
+     "amount":"18000",
+     "houseID":"xxxxxxxxxxxxxxx"   
+    }
+]

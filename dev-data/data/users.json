@@ -1,0 +1,11 @@
+[
+    {
+        "name":"Alexander Karanja",
+        "id_no" : "00000000",
+        "email":"alex@techkey.co.ke",
+        "phone":"0700000000",
+        "password": "xxxxxxxxxxxxxxxxxx",
+        "year_of_study":"4",
+        "active" :true
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "name":"john doe",
+        "contact":"0700000000",
+        "PaymentMethod":["mpesa","cash","bank"],
+        "Phone":"0700000000",
+        "secondaryContact":"071111111111",
+        "id_no":"xxxxxxxx"
+    }
+]
