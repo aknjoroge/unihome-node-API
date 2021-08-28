@@ -25,7 +25,7 @@ This is a **REST** Api design for unihomes project.
 Data is manipulated in Json format.<br/>
 The json files are located in `dev-data\data`.
 
-> This Api is then used to make the Unihome project where it uses Mongoose for mongo Database. Json is used here for experimental purposes.
+> This Api is then used to make the Unihome project where it uses Mongoose for mongo Database. Json is used here for development purposes.
 
 ---
 
@@ -79,7 +79,7 @@ exports.getUsers = function name(req, res, next) {
 
 <br/>
 
-### The users end point is used with different http methods to manipulate the json Data stored
+### The end points can be used with different http methods to manipulate the json Data stored
 
 <br/>
 
@@ -231,7 +231,7 @@ This will trigger an npm script called start
 
 <br/>
 
-If you already have nodemon installed globbaly ie `-g` just run
+If you already have nodemon installed globbaly ie `-g ` just run
 
 ```javascript
 nodemon server.js
@@ -239,8 +239,8 @@ nodemon server.js
 
 <br/>
 
-You can then access the api with PostMan using the localhost url and the port number you use<br/>
-ie `http://localhost:PORTNUMBER/`
+You can then access the api with PostMan using the localhost url.<br/>
+Change the port number to the one you use <br/> ie `http://localhost:PORTNUMBER/`
 
 ```
 http://localhost:2000/
@@ -252,7 +252,53 @@ http://localhost:2000/
 http://127.0.0.1:2000/
 ```
 
-### Enjoy
+---
+
+<br/>
+
+## Endpoints
+
+<br/>
+
+### User
+
+```
+http://127.0.0.1:2000/api/v1/users
+```
+
+### Owners
+
+```
+http://127.0.0.1:2000/api/v1/owners
+```
+
+### Houses
+
+```
+http://127.0.0.1:2000/api/v1/houses
+```
+
+### Estates
+
+```
+http://127.0.0.1:2000/api/v1/estates
+```
+
+### Bookings
+
+```
+http://127.0.0.1:2000/api/v1/bookings
+```
+
+### Locations
+
+```
+http://127.0.0.1:2000/api/v1/locations
+```
+
+---
+
+> Enjoy
 
 ---
 
@@ -261,6 +307,16 @@ http://127.0.0.1:2000/
 Alexander Karanja [@Twitter](https://twitter.com/aknjoroge)
 
 ---
+
+<br/>
+
+## PostMan Documenation
+
+[Open Postman Doc](https://documenter.getpostman.com/view/16071659/TzzHmYPU)
+
+---
+
+<br/>
 
 ## License
 
