@@ -10,6 +10,7 @@ let locationRoutes = require("./routes/locationRoutes");
 let app = express();
 
 //limiting request json to 10kb
+app.use(express.json());
 app.use(express.json({ limit: "10kb" }));
 
 app.use("/api/v1/users", userRootes);
@@ -33,6 +34,13 @@ app.post("/", function (req, res) {
     apiUrl: "/api/v1/",
     url: "unihome.techkey.co.ke",
     method: "POST",
+  });
+});
+
+app.use("*", function (req, res, next) {
+  res.json({
+    status: "failled",
+    message: "Route not set",
   });
 });
 
