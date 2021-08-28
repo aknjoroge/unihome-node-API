@@ -5,7 +5,7 @@ let owners = fs.readFileSync(
   "utf-8"
 );
 let ownersData = JSON.parse(owners);
-exports.getOwners = function (req, res, next) {
+exports.getAll = function (req, res, next) {
   res.json({
     status: "success",
     response: ownersData.length,
@@ -15,7 +15,7 @@ exports.getOwners = function (req, res, next) {
   });
 };
 
-exports.addOwner = function (req, res) {
+exports.add = function (req, res) {
   let owner = req.body;
   let id = { id: Math.random() };
   let newOwner = Object.assign(id, owner);
@@ -42,7 +42,7 @@ exports.addOwner = function (req, res) {
   );
 };
 
-exports.getOneOwner = function name(req, res, next) {
+exports.getOne = function name(req, res, next) {
   let parameter = req.params;
   let owner = ownersData.find(function (element) {
     return element.id == parameter.id;
@@ -55,7 +55,7 @@ exports.getOneOwner = function name(req, res, next) {
   });
 };
 
-exports.deletOwner = function (req, res, next) {
+exports.delete = function (req, res, next) {
   let id = req.params.id;
 
   let owners = ownersData.filter(function (element) {
@@ -80,7 +80,7 @@ exports.deletOwner = function (req, res, next) {
   );
 };
 
-exports.updateOwner = function (req, res, next) {
+exports.update = function (req, res, next) {
   let id = req.params.id;
 
   res.json({
