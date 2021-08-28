@@ -1,9 +1,1 @@
-[
-    {
-     "userID":"xxxxxxxxxx",
-     "paymentMethod":"mpesa",
-     "date":"now()",
-     "amount":"18000",
-     "houseID":"xxxxxxxxxxxxxxx"   
-    }
-]
+[{"userID":"xxxxxxxxxx","paymentMethod":"mpesa","date":"now()","amount":"18000","houseID":"xxxxxxxxxxxxxxx"},{"id":0.12707586334769938,"userID":"xxxxxxxxxx","paymentMethod":"bank","date":"now()","amount":"18000","houseID":"xxxxxxxxxxxxxxx"},{"id":0.4308721199946981,"userID":"xxxxxxxxxx","paymentMethod":"bank","date":"now()","amount":"18000","houseID":"xxxxxxxxxxxxxxx"},{"id":0.9779606873828468,"userID":"AAaxxxxxxxxxx","paymentMethod":"bank","date":"now()","amount":"18000","houseID":"xxxxxxxxxxxxxxx"}]
