@@ -308,8 +308,6 @@ Alexander Karanja [@Twitter](https://twitter.com/aknjoroge)
 
 ---
 
-<br/>
-
 ## PostMan Documenation
 
 [Open Postman Doc](https://documenter.getpostman.com/view/16071659/TzzHmYPU)
